@@ -9,9 +9,9 @@ export default function Home() {
       <a href = "#">Ajude-me</a>
         
       <div className = {styles.button}>
-        <span class = "button"><a href = "#">Login</a></span>
+        <a href = "#">Login</a>
       </div>
-      
+
       <div className = {styles.login}>
         <a href = "#">Cadastre-se</a>
       </div>
