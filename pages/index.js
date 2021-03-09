@@ -23,6 +23,30 @@ export default function Home() {
           <a href = "#">Organizar evento</a>
         </div>
       </div>
+      <div className = {styles.adjustForm}>
+        <form className = {styles.form}>
+          
+          <fieldset className = {styles.fieldset}>
+            
+            <legend className = {styles.legend}>Localize um evento</legend>
+            
+            <label>Local: </label>
+              <input type = "text"></input>
+            <br></br>
+            <label>Tipo do evento: </label>
+              <input type = "text"></input>
+            <br></br>
+            <label>Data: </label>
+              <input type="date"></input> 
+            
+            <br></br> 
+            <div className = {styles.buttonSubmit}>
+              <button className = {styles.buttonSubmit}type = "submit">Localizar</button>
+            </div>
+           
+          </fieldset>
+        </form>
+      </div>
     </div>
   )
 }

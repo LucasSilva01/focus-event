@@ -151,7 +151,6 @@
 .button{
   color: inherit;
   float: right;
-
   border-radius: 12px;
 }
 
@@ -172,24 +171,67 @@
 }
 
 .groupElements{
-
-  margin: 2rem 1rem ;
-
-  border-radius:18px;
-  display:inline-block;
-
-  font-family:Verdana;
-  font-weight:bold;
-  font-size:13px;
-  padding: 2px 3px;
+  top: 3em;
+  left: 4em;
+  position:absolute;
+  display:block;
+  padding: 0.5rem;
+  color: inherit;
+  border: 1px solid #eaeaea;
+  border-radius: 28px;
+  transition: color 0.15s ease, border-color 0.15s ease;
 
 }
 
 
 
 .groupElements a:hover{
-  background-color: #0f4720;
-  color: #02ce13;
-  border-radius: 18px;
+  background-color: #ffffff;
+  color: #32c51f;
+  border-radius: 28px;
   padding: 5px 10px;
 }
+
+.adjustForm{
+  float: left;
+  position:absolute;
+  left:37%;
+  top:7em;
+  left: 4em;
+  width: 380px;
+  height:270px;
+} 
+.form{
+  position:absolute;
+  display:block;
+}
+
+.fieldset{
+  width:350px;
+  height:165px;
+}
+
+.legend{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+}
+
+
+
+.buttonSubmit{
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  padding: 0.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.buttonSubmit button:hover{
+  background-color: #02ce13;
+  color:#f8f8f8;
+  border-radius: 12px;
+}
+
+
