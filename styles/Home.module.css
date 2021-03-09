@@ -112,26 +112,27 @@
 }
 
 .navbar{
+  
   background-color: #020202;
   overflow: hidden;
 }
 
 .navbar a{
+  margin: 0.1rem;
   float: left;
   color: #f2f2f2;
-  text-align: left;
-  padding: 14px 16px;
+  text-align: center;
+  padding: 10px 12px;
   font-size: 15px;
 }
 
 .navbar a:hover{
   background-color: #f8fafc;
   color:#020202;
+  border-radius: 12px;
 }
 
-
-
- .card {
+.card {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -148,5 +149,47 @@
 }
 
 .button{
+  color: inherit;
   float: right;
+
+  border-radius: 12px;
+}
+
+.button a:hover{
+  background-color: #02ce13;
+  color:#f8f8f8;
+  border-radius: 12px;
+}
+
+.organize{
+
+  font-family: Leckerli One;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #000000;
+  
+}
+
+.groupElements{
+
+  margin: 2rem 1rem ;
+
+  border-radius:18px;
+  display:inline-block;
+
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:13px;
+  padding: 2px 3px;
+
+}
+
+
+
+.groupElements a:hover{
+  background-color: #0f4720;
+  color: #02ce13;
+  border-radius: 18px;
+  padding: 5px 10px;
 }
