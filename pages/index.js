@@ -18,10 +18,8 @@ export default function Home() {
         </div>
       </div>
       
-      <div className = {styles.groupElements}>
-        <div className = {styles.organize}>
-          <a href = "#">Organizar evento</a>
-        </div>
+      <div className = {styles.buttonSubmit}>
+          <button className = {styles.buttonSubmit} href = "#">Organizar evento</button>
       </div>
       <div className = {styles.adjustForm}>
         <form className = {styles.form}>
@@ -31,10 +29,10 @@ export default function Home() {
             <legend className = {styles.legend}>Localize um evento</legend>
             
             <label>Local: </label>
-              <input type = "text"></input>
+              <input placeholder="local do evento" type = "text"></input>
             <br></br>
             <label>Tipo do evento: </label>
-              <input type = "text"></input>
+              <input placeholder="Informe o tipo do evento." type = "text"></input>
             <br></br>
             <label>Data: </label>
               <input type="date"></input> 
@@ -43,7 +41,6 @@ export default function Home() {
             <div className = {styles.buttonSubmit}>
               <button className = {styles.buttonSubmit}type = "submit">Localizar</button>
             </div>
-           
           </fieldset>
         </form>
       </div>
