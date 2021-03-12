@@ -44,6 +44,11 @@ export default function Home() {
           </fieldset>
         </form>
       </div>
+      <div className = {styles.footer}>
+          <p>O Focus-Event é um projeto acadêmico avaliativo da disciplina de Programação Web, do curso de Sistemas de Informação.&nbsp;&nbsp;&nbsp;</p>
+
+          <a href="https://github.com/LucasSilva01/focus-event"><img src="../images/logogithub.png" alt="Github do Projeto"></img></a>
+      </div>
     </div>
   )
 }
