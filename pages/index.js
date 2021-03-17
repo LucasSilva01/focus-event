@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import Head from 'next/head';
+import Image from 'next/image'
 import register from './register'
 import events from './events'
 import login from './login'
@@ -33,7 +34,14 @@ export default function Home() {
       <div className = {styles.footer}>
           <p>O Focus-Event é um projeto acadêmico avaliativo da disciplina de Programação Web, do curso de Sistemas de Informação.&nbsp;&nbsp;&nbsp;</p>
 
-          <a href="https://github.com/LucasSilva01/focus-event"><img src="../images/logogithub.png" alt="Github do Projeto"></img></a>
+          <a href="https://github.com/LucasSilva01/focus-event">
+          <Image
+            src="/../public/logogithub.png"
+            alt="GitHub do Projeto"
+            width={76}
+            height={76}
+          
+          /></a>
       </div>
     </div>
   )
