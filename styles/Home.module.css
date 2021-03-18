@@ -24,8 +24,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 600px;
+  position: relative;
+
   overflow: hidden;
 }
 
@@ -131,8 +131,8 @@
 }
 
 .navbar a{
-  top: 9;
-  margin: 0.19rem;
+
+  margin: 0rem;
   float: left;
 
   position: relative;
@@ -141,7 +141,7 @@
   text-align: center;
   border: 2.5px solid #000000;
   border-radius: 25px;
-  padding: 0.5rem;
+  padding: 0.4rem;
   font-size: 22px;
   transition: color 0.30s ease, border-color 0.30s ease;
 }
@@ -195,16 +195,21 @@
 }
 
 .groupElements{
-  top: 3em;
-  left: 4em;
-  position:absolute;
-  display:block;
-  padding: 0.5rem;
-  color: inherit;
-  border: 1px solid #eaeaea;
-  border-radius: 28px;
-  transition: color 0.15s ease, border-color 0.15s ease;
 
+  float: center;
+  padding: 3rem;
+  position: relative;
+  top: 7px;
+
+  text-align: center;
+}
+
+.configLogo{
+  float: center;
+
+ 
+  padding: 0.5rem;
+  text-align: center;
 }
 
 
@@ -257,3 +262,6 @@
   color:#f8f8f8;
   border-radius: 12px;
 }
+ .backG{
+   background-color: #7c7c7e;
+ }
