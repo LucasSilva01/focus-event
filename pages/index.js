@@ -4,13 +4,12 @@ import Image from 'next/image'
 import register from './register'
 import events from './events'
 import login from './login'
-
+import Mapa from '../components/map'
 
 export default function Home() {
   return (
     <div>
-      <title>Focus Event</title>
-      <Head>
+
         <div className = {styles.navbar}>
           
           <a href = "/">Home</a>
@@ -26,14 +25,16 @@ export default function Home() {
             <a href = "/register">Cadastre-se</a>
           </div>
         </div>
-      </Head>
-      <div>
-          <a className = {styles.card} href = "#">Organizar evento</a>
-      </div>
-      
+        
+        <div>
+          <Mapa />
+        </div>
+ 
+          
       <div className = {styles.footer}>
-          <p>O Focus-Event é um projeto acadêmico avaliativo da disciplina de Programação Web, do curso de Sistemas de Informação.&nbsp;&nbsp;&nbsp;</p>
 
+          <p>O Focus-Event é um projeto acadêmico avaliativo da disciplina de Programação Web, do curso de Sistemas de Informação.&nbsp;&nbsp;&nbsp;</p>
+          
           <a href="https://github.com/LucasSilva01/focus-event">
           <Image
             src="/../public/logogithub.png"
@@ -42,6 +43,7 @@ export default function Home() {
             height={76}
           
           /></a>
+          <a className = {styles.card} href = "#">Organizar evento </a>
       </div>
     </div>
   )
