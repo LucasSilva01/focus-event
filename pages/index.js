@@ -12,13 +12,20 @@ export default function Home() {
 
         <div className = {styles.navbar}>
           
-          <a href = "/">Home</a>
+          <a href = "/"><Image src="/../public/house-png-190.png"
+            width={40}
+            height={40}
+          /></a>
           <a href = "/events">Eventos</a>
           <a href = "#">Produtores</a>
           <a href = "#">Ajude-me</a>
           
-          <div className = {styles.button}>
-            <a href = "/login">Login</a>
+          <div  className = {styles.button}>
+            <a href = "/login"><Image src="/../public/loginButtou.png"
+            width={40}
+            height={40}
+          
+          /></a>
           </div>
 
           <div className = {styles.login}>
