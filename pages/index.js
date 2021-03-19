@@ -5,9 +5,11 @@ import register from './register'
 import events from './events'
 import login from './login'
 import Mapa from '../components/map'
+import Nav from '../components/navbar'
 
 export default function Home() {
   return (
+
     <div className = {styles.backG} >
 
         <div >
@@ -49,7 +51,7 @@ export default function Home() {
           />
             </a>
           </div>
-        
+           
           <div>
           <Mapa />
           </div>

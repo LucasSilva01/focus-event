@@ -140,7 +140,7 @@
   display: flex;
   text-align: center;
   border: 2.5px solid #000000;
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 0.4rem;
   font-size: 22px;
   transition: color 0.30s ease, border-color 0.30s ease;
