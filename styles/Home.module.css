@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
 
   overflow: hidden;
 }
@@ -153,6 +153,17 @@
   
 }
 
+.loginitens{
+  background-color: #C5C5C5;
+  position: relative;
+  left: 450px;
+  width: 380px;
+  height:270px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  justify-content: center;
+  overflow: hidden;
+}
+
 .card {
  float: center;
   margin: 1rem;
@@ -221,6 +232,16 @@
   padding: 5px 10px;
 }
 
+
+.loginForm{
+  float: center;
+  position:absolute;
+  top:15em;
+  height:270px;
+  width: 100%;
+  background-color: #7c7c7e;
+  align-items: center;
+}
 .adjustForm{
   float: left;
   position:absolute;
