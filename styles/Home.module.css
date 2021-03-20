@@ -164,6 +164,16 @@
   overflow: hidden;
 }
 
+.blankSpace{
+  height: 56px;
+}
+
+.registerEventItens{
+  background-color: #C5C5C5;
+  width: 500px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
 .card {
  float: center;
   margin: 1rem;
@@ -242,6 +252,17 @@
   background-color: #7c7c7e;
   align-items: center;
 }
+
+.registerEventForm{
+  float: center;
+  position:absolute;
+  top:15em;
+  height:500px;
+  width: 100%;
+  background-color: #7c7c7e;
+  align-items: center;
+}
+
 .adjustForm{
   float: left;
   position:absolute;
