@@ -13,16 +13,11 @@ export default function Home() {
   return (
     <div>
       <Header/>
-    
       <div className = {styles.backG}>
         <Navbar/>
-        <div className = {styles.configLogo}>
-          </div>
           <div>
             <Mapa />
             </div>
-  
-      
       </div>
       <Footer/>
     </div>

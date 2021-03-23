@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../css/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
 function navbar(){
     return(
